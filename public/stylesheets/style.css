@@ -157,3 +157,14 @@ body {
 h1 {
   font-size: var(--step-5);
 }
+
+nav {
+  color: #efefef;
+  display: flex;
+  justify-content: space-evenly;
+  background-color:#333;
+}
+
+a{
+  color:#efefef;
+}

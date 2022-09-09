@@ -23,4 +23,11 @@ router.get('/', async function(req, res, next) {
     }
 });
 
+router.get('/test', function(request, response, next){
+    response.render('test.njk',{
+        title: 'Pims sida',
+        text: 'lite statisk text'
+    });
+})
+
 module.exports = router;
